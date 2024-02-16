@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="group">
+            <div class="group-element checkbox">
+                <div class="title title-chekbox">Chekbox</div>
+                <div class="elements">Elements </div>
+                <div class="variants-checkbox">
+                    <img src="./img/checkbox-1.svg" alt="">
+                    <img src="./img/checkbox-2.svg" alt="">
+                    <img src="./img/checkbox-3.svg" alt="">
+                    <img src="./img/checkbox-4.svg" alt="">
+                    <img src="./img/checkbox-5.svg" alt="">
+                    <img src="./img/checkbox-6.svg" alt="">
+                </div>
+
+                <div class="check-box-examples">
+                    <div class="title-variants">Enabled Unselected / Off</div>
+                    <label class="checkbox-container">
+                        <input type="checkbox" class="input">
+                        <span class="checkmark"></span>
+                    </label>
+                    <div class="title-variants">Enabled Selected / On</div>
+                    <label class="checkbox-container">
+                        <input type="checkbox" class="input" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                    <div class="title-variants">Disabled Selected / On</div>
+                    <label class="checkbox-container">
+                        <input type="checkbox" class="input disabled-selected" checked="checked" disabled>
+                        <span class="checkmark"></span>
+                    </label>
+                    <div class="title-variants">Hover Selected / On</div>
+                    <label class="checkbox-container-hover">
+                        <input type="checkbox" class="input-hover" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                    <div class="title-variants">Disabled Unselected / Off</div>
+                    <label class="checkbox-container ">
+                        <input type="checkbox" class="input disabled-selected" disabled>
+                        <span class="checkmark"></span>
+                    </label>
+                    <div class="title-variants">Hover Unselected / Off</div>
+                    <label class="checkbox-container-hover">
+                        <input type="checkbox" class="input-hover">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+            </div>
+            <div class="group-element switch">
+                <div class="title  title-switch">Switch</div>
+
+                <div class="check-box-examples">
+                    <div class="title-variants">Enabled Unselected / Off</div>
+                    <input type="checkbox" id="switch" class="switch-example" />
+                    <label class="switch-container" for="switch"></label>
+
+                    <div class="title-variants">>Enabled Selected / On</div>
+                    <input type="checkbox" id="switch" class="switch-example-2" checked="checked" disabled/>
+                    <label class="switch-container-2" for="switch"></label>
+
+                    <div class="title-variants">Enabled Unselected / Off</div>
+                    <input type="checkbox" id="switch" class="switch-example-3" />
+                    <label class="switch-container-3" for="switch"></label>
+
+                    <div class="title-variants">Enabled Unselected / Off</div>
+                    <input type="checkbox" id="switch" class="switch-example-4" />
+                    <label class="switch-container-4" for="switch"></label>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
